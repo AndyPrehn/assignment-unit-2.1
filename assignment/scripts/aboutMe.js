@@ -56,13 +56,20 @@ console.log(allowedPets);
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let results = adventurous ()
-  if (adventurous = true)
-  console.log('Adventures are great!');
+let result = "result" 
+  if (adventurous === true) {
+    result = "Adventures are great!"
+    console.log('Adventures are great!');
+  }
+  
 // end Adventures are great
-else { adventurous = false 
-console.log('How about we stay home');
-} //end How about we stay home
+else {
+  result = "How about we stay home?"
+  console.log('How about we stay home?');
+}
+
+ //end How about we stay home
+
 
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
