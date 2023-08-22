@@ -15,7 +15,7 @@ console.log(fullName);
 
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
-let luckyNumber = 13;
+let luckyNumber =20;
 console.log(luckyNumber);
 
 // 5 - Create a variable `introduction` and using the variables from above,
@@ -61,22 +61,18 @@ let result = "result"
     result = "Adventures are great!"
     console.log('Adventures are great!');
   }
-  
 // end Adventures are great
 else {
   result = "How about we stay home?"
   console.log('How about we stay home?');
-}
-
- //end How about we stay home
-
-
+}//end How about we stay home
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+
 
 
 // 14 - Create a variable called `petStatus`. 
