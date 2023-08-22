@@ -77,8 +77,6 @@ if (luckyNumber === 2 && adventurous === true) {
 diceRoll = 'Roll the dice!'
 }
 
-
-
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
@@ -87,7 +85,19 @@ diceRoll = 'Roll the dice!'
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
+let petStatus = 'I love pets';
+if (pets > allowedPets) {
+  petStatus = "I can have more pets" 
+  console.log(petStatus); }
+  
+  else if (pets === allowedPets) {
+    petStatus = "I have enought pets"
 
+  }
+  else (pets < allowedPets) 
+    petStatus = "Oh no, I have too many pets"
+
+  
 
 // STRETCH GOALS:
 
